@@ -29,6 +29,7 @@ JENKINS_SETTINGS_FILE = "{home}/.jenkins.yaml"
 job_aliases = {
     'mojo': 'mojo_runner',
     'full': 'test_charm_func_full',
+    'smoke': 'test_charm_func_smoke',
     'lint': 'test_charm_lint',
     'single': 'test_charm_single'}
 
