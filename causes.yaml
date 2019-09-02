@@ -27,6 +27,12 @@ Jenkins no space:
   text:
   - 'java.io.IOException: No space left on device'
   - 'OSError: [Errno 28] No space left on device'
+Stable LXD 1907:
+  bug_data:
+    number: '1842288'
+    url: https://bugs.launchpad.net/charm-test-infra/+bug/1842288
+  re:
+  - BASE_NAME=lxd.*stable/19.07.*Could not find remote branch stable/19.07
 Magpie peer:
   bug_data:
     number: '10'
