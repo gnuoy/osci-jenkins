@@ -1,0 +1,61 @@
+Amulet timeout:
+  text:
+  - amulet.helpers.TimeoutError
+BUG 1841570 (CERTS ModuleNotFound):
+  bug_data:
+    number: '1841570'
+    url: https://bugs.launchpad.net/charm-designate/+bug/1841570
+  text:
+  - certificates-relation-joined ModuleNotFoundError
+  - 'hook failed: "certificates-relation-joined"'
+BUG 1841772:
+  text:
+  - 'NameError: name ''logging'' is not defined'
+CHARM SPEC VAULT:
+  bug_data:
+    number: '1841600'
+    url: https://bugs.launchpad.net/charm-test-infra/+bug/1841600
+  text:
+  - Invalid charm specification vault
+COMPUTE PEER BUG:
+  text:
+  - 'hook failed: "compute-peer-relation-joined'
+DNS Failure:
+  text:
+  - Temporary failure in name resolution
+Jenkins no space:
+  text:
+  - 'java.io.IOException: No space left on device'
+  - 'OSError: [Errno 28] No space left on device'
+Magpie peer:
+  bug_data:
+    number: '10'
+    url: https://github.com/andrewdmcleod/magpie-layer/issues/10
+  re:
+  - juju_wait.JujuWaitException.*magpie.*Waiting for peers
+Mojo CERT not found:
+  bug_data:
+    number: '1841925'
+    url: https://bugs.launchpad.net/charm-test-infra/+bug/1841925
+  re:
+  - No such file or directory:.*cert.pem'
+Provisioning Error:
+  text:
+  - machine-status is in status provisioning error
+Quota error RAM:
+  bug_data:
+    number: '1841598'
+    url: https://bugs.launchpad.net/charm-test-infra/+bug/1841598
+  text:
+  - Quota exceeded for ram
+Zaza timeout:
+  text:
+  - Zaza has timed out waiting on the model to reach expected workload statuses
+  - Zaza has timed out waiting on the model to reach idle state.
+Zaza unit error:
+  text:
+  - 'zaza.model.UnitError: Units'
+retrofit-image ActionFailed:
+  text:
+  - 'zaza.model.ActionFailed: Run of action "retrofit-image"'
+
