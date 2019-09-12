@@ -1,3 +1,9 @@
+Upstream BZR error:
+  re:
+  -  'bzr: ERROR: Server sent an unexpected error: .*xmlrpclib.Fault'
+  bug_data:
+    number: '1842289'
+    url: https://bugs.launchpad.net/charm-test-infra/+bug/1842289
 Amulet timeout:
   text:
   - amulet.helpers.TimeoutError
